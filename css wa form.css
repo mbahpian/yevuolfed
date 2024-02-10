@@ -1,5 +1,5 @@
 /* CSS Chatbox Whatsapp By Jago Desain And Redesign By Wendy Code */
-svg{width:22px;height:22px;vertical-align:middle;fill:#fff}
+svg{width:22px;height:22px;vertical-align:middle;}
 .chatMenu,.chatButton .svg-2{display:none}
 
 a#send-it{color:#555;width:55px;margin:5px;font-weight:700;padding:10px;background:#f0f5fb;border-radius:15px 3px 15px 15px;text-decoration:none}
