@@ -12,7 +12,6 @@ background-color: #f2f2f2;
 <article>
 <html>
    <head>
-      <title>Order Form To WhatsApp</title>
       <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -20,40 +19,22 @@ background-color: #f2f2f2;
 <body>
     <div class="container">
         <div class="col-lg-6 col-lg-offset-3">
-            <h4>Make Order Form To WhatsApp</h4>
             <div class="panel panel-success">
-                <div class="panel-heading">
-                    Send To WhatsApp
-                </div>
                 <div class="panel-body">
                     <div class="form-group">
                         <label>Name</label>
                         <input type="text" name="name" class="form-control" placeholder="Name" id="name">
                     </div>
                     <div class="form-group">
-                        <label>E-mail</label>
-                        <input type="email" name="email" class="form-control" placeholder="E-mail" id="email">
-                    </div>
-                    <div class="form-group">
                         <label>No. WhatsApp</label>
                         <input type="text" name="phone" class="form-control" placeholder="No. WhatsApp" id="phone">
                     </div>
                     <div class="form-group">
-                        <label>Choose Product</label>
-                        <select name="product" class="form-control" id="product">
-                            <option value="">-- Choose Package --</option>
-                            <option value="produk_1">Package 1</option>
-                            <option value="produk_2">Package 2</option>
-                            <option value="produk_3">Package 3</option>
-                          <option value="produk_4">Package 4</option>
-                        </select>
+                        <label>Pesan </label>
+                        <textarea name="description" class="form-control" rows="3" placeholder="Contoh: halo min saya ingin pesan..." id="description"></textarea>
                     </div>
                     <div class="form-group">
-                        <label>Additional Note </label>
-                        <textarea name="description" class="form-control" rows="3" id="description"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-success send">Send Form Via WhatsApp</button>
+                        <button class="btn btn-success send">Kirim</button>
                     </div>
  
                     <div id="text-info"></div>
@@ -75,7 +56,7 @@ $(document).on('click','.send', function(){
  
     /* Whatsapp Setting */
     var walink      = 'https://web.whatsapp.com/send',
-        phone       = '6289605552515',
+        phone       = '6283831393134',
         text        = 'Hello I want to make website',
         text_yes    = 'Your order was successfully sent.',
         text_no     = 'Fill this form to order.';
